@@ -48,7 +48,15 @@
 
            <tr>
             <td><?php echo $entry_currency; ?></td>
-            <td><input type="text" name="payu_currency" value="<?php echo ($payu_currency == "") ? "UAH" : $payu_currency; ?>" /></td>
+            <td>
+                <select name="payu_currency">
+                    <option><?php echo ($payu_currency == "") ? "UAH" : $payu_currency; ?></option>
+                    <option>UAH</option>
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option>RUB</option>
+                </select>
+            </td>
           </tr>  
 
            <tr>
