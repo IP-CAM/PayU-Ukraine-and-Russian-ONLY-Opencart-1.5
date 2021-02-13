@@ -1,27 +1,25 @@
 #(For PayU Ukraine and Russian ONLY)
 ------
 
-!! Внимание !!
-Для мерчантов из России обязательно нужно указать ссылку LU и валюту мерчанта.
+!! Attention !!
+For merchants from Russia, you must specify the LU link and the merchant's currency.
 
-#Модуль для CMS Opencart 
+# Module for CMS Opencart
 ======
 
-( Проверено на версиях 1.5.х )
+(Tested on versions 1.5.x)
 
-IPN : http://{домен сайта}/index.php?route=payment/payu/callback
+IPN: http: // {site domain} /index.php?route=payment/payu/callback
 
-#Установка
+# Installation
 -------------
-1. Скопировать папки admin и catalog в корень сайта
-2. Зайти в админку сайта
-2.1 Выбрать меню "Дополнения" -> "Оплата"
-3. В списке оплат найти способ "PayU"
-3.1 Нажать кнопку "Установить"
-3.2 Нажать кнопку "Изменить"
-4. Пример настроек можно увидеть на скриншоте
+1. Copy the admin and catalog folders to the site root
+2. Go to the site admin panel
+2.1 Select the menu "Add-ons" -> "Payment"
+3. In the list of payments, find the "PayU" method
+3.1 Press the "Install" button
+3.2 Press the "Change" button
+4. An example of settings can be seen in the screenshot
 
 
-![Скриншот][1]
-
-[1]: https://raw.github.com/PayUUA/Opencart-1.5/master/screenshot.png
+[1]: https://raw.github.com/PayUUA/Opencart-1.5/master/screenshot.png 
